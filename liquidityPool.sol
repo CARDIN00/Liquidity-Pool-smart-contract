@@ -1,11 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../simpleErc20.sol";
-import "openzeppelin-contracts/contracts/security/Pausable.sol";
-
-
-
+import "./simpleErc20.sol";
+import "@openzeppelin/contracts/utils/Pausable.sol";
 
 
 contract LiquidityPool is  Pausable {
