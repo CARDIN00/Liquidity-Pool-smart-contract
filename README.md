@@ -7,6 +7,10 @@ ERC20 Token Deployment: Deployed the simpleErc20 ERC20 token contract on a testn
 
 Liquidity Pool Contract Deployment: Deployed the LiquidityPool contract using Thirdweb and passed the deployed ERC20 token address as a parameter for interaction.
 
+Added the swap functions that help to swap the ether for tokens and vice versa.
+Used AMM (x * y = k) 
+
+
 Thirdweb for Deployment: Leveraged Thirdweb to deploy both contracts to the testnet, simplifying the deployment process with an easy-to-use interface.
 
 Testnet Deployment: Deployed contracts to test networks to test and verify functionality before deploying to the Ethereum mainnet.
